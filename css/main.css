@@ -8,14 +8,15 @@
 .navbar .container{
     display: flex;
     padding-top: var(--size-10);
-    padding-bottom: var(--size-10);
-    background-color: grey;
+    background: radial-gradient(circle 490px at 1.75% 50%, white 2%, gray 9% );
+    border-bottom: 2px solid #ffffff42;
 }
 
 .nav-list {
     display: flex;
     margin-left: auto;
     align-items: center
+
 }
 
 .nav-list ul{
