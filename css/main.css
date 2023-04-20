@@ -1,0 +1,51 @@
+
+.navbar-nav {
+    padding-left: var(--size-20);
+    padding-right: var(--size-20);
+    z-index: 100;
+} 
+
+.navbar .container{
+    display: flex;
+    padding-top: var(--size-10);
+    padding-bottom: var(--size-10);
+    background-color: grey;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: auto;
+    align-items: center
+}
+
+.nav-list ul{
+    padding-right: var(--size-10)
+}
+
+.nav-list li{
+    padding-right: var(--size-10);
+}
+
+
+.pg-header .container {
+    height: var(--size-150);
+    background-image: url(/assets/stuff_aziii/potthing.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+[aria-controls="navbarDropdown"] { display: none;}
+
+.brand-logo { 
+   margin-right: auto;
+}
+
+.brand-logo img {
+    object-fit: cover;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
