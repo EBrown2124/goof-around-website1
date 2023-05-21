@@ -8,7 +8,7 @@
 .navbar .container{
     display: flex;
     padding-top: var(--size-10);
-    background: radial-gradient(circle 490px at 1.75% 50%, white 2%, gray 9% );
+    background-color: cadetblue;
     border-bottom: 2px solid #ffffff42;
 }
 
@@ -28,9 +28,9 @@
 
 .nav-list li{
     font-size: var(--size-20);
-    padding: var(--size-10);
     border-radius: 20px;
-    box-shadow: 0.5px 0px 8px #fff;
+    font-family: 'Oswald';
+    font-weight: 300 ;
 }
 
 
@@ -113,6 +113,7 @@
 
 .setthree .bot-left img{
     height: 100%;
+    border-radius: 50px;
 }
 
 .setthree .top-right{
@@ -125,8 +126,25 @@
     grid-column: 2/2; 
     height: 450px;
     justify-self: center;
+    padding-right: var(--size-100);
 }
 
 .setthree .top-right img{
     height: 100%;
+    border-radius: 50px;
+}
+
+.setfour .container {
+    height: var(--size-150);
+    background-image: url(/assets/last/image.JPG);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer .container{
+    background-color: cadetblue;
+    border-top: 2px solid #ffffff42;
 }
