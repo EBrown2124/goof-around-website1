@@ -138,6 +138,7 @@
     height: var(--size-150);
     background-image: url(/assets/last/image.JPG);
     min-height: 700px;
+    justify-content: center;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -147,4 +148,44 @@
 footer .container{
     background-color: cadetblue;
     border-top: 2px solid #ffffff42;
+}
+
+footer .proflies{
+  object-fit: cover;
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+}
+
+.yourteam{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: var(--size-30);
+    padding-bottom: var(--size-30);
+}
+
+.member{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-co{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-footer .web-end{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: var(--size-30);
+  padding-bottom: var(--size-30);
+}
+
+.web-end li {
+  padding-left: var(--size-20);
+  padding-right: var(--size-20);
 }
