@@ -95,9 +95,11 @@
 .setthree .container{
    display: grid;
    justify-content: center;
+   align-content: center;
    gap: var(--size-20);
-   margin: var(--size-50);
-}
+   padding-top: var(--size-40);
+   padding-bottom: var(--size-40);
+  }
 
 .setthree .top-left{
     grid-column: 1/1; 
@@ -148,6 +150,7 @@
 footer .container{
     background-color: cadetblue;
     border-top: 2px solid #ffffff42;
+    width: 100%;
 }
 
 footer .proflies{
